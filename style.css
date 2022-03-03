@@ -1,0 +1,102 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(124, 207, 240);
+    font-family: Comic Sans MS,cursive,sans-serif;
+}
+.card-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 387px;
+    height: 65vh;
+    padding: 20px;
+    
+    
+}
+.card{
+    box-shadow: 10px 14px 200px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    padding: 0.4rem;
+    border-radius: 1.1rem;
+    
+
+}
+
+.img-container{
+    text-align: center;
+    background-color: #fff;
+    height: 100px;
+
+}
+
+
+img{
+    width: 180px;
+    height: 180px;
+    border-radius: 200%;
+    margin-top: 60px;
+    padding: 1rem;
+}
+
+.card-upper{
+    background-color: rgb(124, 207, 240);
+    text-align: center;
+    height: 160px;
+    width: 100%;
+    padding: 2px;
+
+
+}
+
+.card-title{
+    text-align: center;
+    margin-top: 15vh;
+    height: 120px;
+    
+
+}
+
+h3{
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Garamond,serif;
+
+}
+
+.card-lower{
+    margin-top: 3vh;
+    background-color: #fff;
+    height: 170px;
+
+}
+
+.card .stats{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+    
+}
+.card .stats .stat{
+    font-size: 1.3em;
+    color: black;
+    padding: 5px;
+    font-weight: bold;
+}
+.card .stats .subtext{
+    color: gray;
+    font-size: 0.6em;
+    font-weight: normal;
+    font-family: comic Sans MS,sans-serifS;
+}
+
+p{
+    font-size: 15px;
+    color: black;
+    font-family: Garamond, serif;
+}
